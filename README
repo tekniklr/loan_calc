@@ -1,0 +1,13 @@
+Given an initial amount, %interest/day, and the number of days, will 
+compute the new total amount given compound interest.
+
+Usage:
+  $ loan_calc.pl <$initial> <%interest/day> <days>
+  
+Example:
+  $ loan_calc.pl 1.00 .06 7
+    7 days later...
+      Given a loan of $1.00 and a daily interest rate of 6%,
+      $1.50 will be owed ($0.50 earned/lost)
+
+  
